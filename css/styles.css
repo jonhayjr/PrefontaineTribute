@@ -142,6 +142,7 @@ input[type=text], input[type=email], textarea{
   }
 
   input[type=submit] {
+    -webkit-appearance: none;
     margin: 20px;
     width: 15%;
     background: white;
@@ -152,6 +153,26 @@ input[type=text], input[type=email], textarea{
   input[type=submit]:hover {
     color: white;
     background: #ADD8E6;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1rem;
+    text-align: center;
+}
+
+::-moz-placeholder {
+    font-size: 1rem;
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    font-size: 1rem;
+    text-align: center;
+}
+
+::-ms-input-placeholder {
+    font-size: 1rem;
+    text-align: center;
 }
 
 ::placeholder {
