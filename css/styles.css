@@ -47,8 +47,7 @@ nav li a {
     transition: color 0.2s, border-bottom 0.2s;
 }
 
-nav li a:hover,
-nav li a:visited {
+nav li a:hover {
     color: #696969;
     border-bottom: 1px solid #696969;
 }
