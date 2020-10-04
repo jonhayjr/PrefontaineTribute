@@ -226,8 +226,8 @@ tr {
         font-size: 1.5rem;
     }
 
-    footer {
-        font-size: 1.2rem;
+    footer p {
+        font-size: 0.8rem;
     }
 /*About Page */
 table { 
@@ -282,8 +282,8 @@ input[type=text], input[type=email], textarea{
         padding: 10px;
     }
 
-    footer {
-        font-size: 1.2rem;
+    footer p {
+        font-size: 1rem;
     }
 /*About Page */
 table { 
